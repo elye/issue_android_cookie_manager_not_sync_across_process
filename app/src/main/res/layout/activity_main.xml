@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_write_cookie"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Cookie"
+        android:onClick="onWriteCookie" />
+
+    <Button
+        android:id="@+id/btn_clear_cookie"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Cookie"
+        android:onClick="onClearCookie" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Process Service"
+        android:onClick="onMainButtonClick" />
+
+    <Button
+        android:id="@+id/btn_other"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other Process Service"
+        android:onClick="onOtherButtonClick" />
+
+</LinearLayout>
